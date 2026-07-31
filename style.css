@@ -801,3 +801,34 @@ INTRO
     line-height: 1.6;
     text-align: center;
 }
+/* FORCE GALLERY POEMS TO SIT BELOW PHOTOS */
+
+.gallery-grid {
+    display: grid !important;
+    gap: 35px !important;
+}
+
+.photo {
+    position: relative !important;
+    height: auto !important;
+    overflow: visible !important;
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.photo img {
+    position: relative !important;
+    width: 100% !important;
+    height: auto !important;
+    display: block !important;
+}
+
+.caption {
+    position: relative !important;
+    left: auto !important;
+    bottom: auto !important;
+    top: auto !important;
+    transform: none !important;
+    width: 100% !important;
+    margin-top: 15px !important;
+}
