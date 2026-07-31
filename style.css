@@ -876,3 +876,20 @@ INTRO
 .gallery-grid .caption h3 {
     display: block !important;
 }
+.music-btn {
+    display: block;
+    margin: 25px auto;
+    padding: 14px 30px;
+    border-radius: 30px;
+    border: none;
+    background: #ff4d88;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(255,77,136,0.3);
+    transition: 0.3s;
+}
+
+.music-btn:hover {
+    transform: scale(1.05);
+}
