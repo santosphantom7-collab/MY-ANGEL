@@ -846,3 +846,33 @@ INTRO
     overflow: visible !important;
     white-space: normal !important;
 }
+/* FINAL GALLERY TEXT FIX */
+
+.gallery-grid .photo {
+    height: auto !important;
+    min-height: auto !important;
+}
+
+.gallery-grid .caption {
+    display: block !important;
+    position: relative !important;
+    height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+.gallery-grid .caption p {
+    display: block !important;
+    height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+    white-space: normal !important;
+    text-overflow: unset !important;
+    -webkit-line-clamp: unset !important;
+}
+
+.gallery-grid .caption h3 {
+    display: block !important;
+}
