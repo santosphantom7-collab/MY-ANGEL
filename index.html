@@ -13,7 +13,19 @@
 </head>
 
 <body>
+<audio id="loveSong" loop>
+    <source src="assets/music/song.mp3" type="audio/mpeg">
+</audio>
 
+<button onclick="playMusic()" class="music-btn">
+    🎵 Play Our Song
+</button>
+
+<script>
+function playMusic() {
+    document.getElementById("loveSong").play();
+}
+</script>
 <!-- Loading Screen -->
 
 <div id="loading-screen">
