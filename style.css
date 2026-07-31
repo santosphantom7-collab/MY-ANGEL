@@ -832,3 +832,17 @@ INTRO
     width: 100% !important;
     margin-top: 15px !important;
 }
+/* Allow full poems to show */
+
+.caption {
+    height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+}
+
+.caption p {
+    height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+    white-space: normal !important;
+}
